@@ -1,0 +1,59 @@
+Longest common subsequence
+
+Problem statement
+
+Given two strings, 'x' and 'y' (1 <= length(x), length(y) <= 1000), 
+find the length of their Longest Common subsequence (LCS). 
+The strings contains only lowercase letters.
+
+Write a program that takes in two string inputs and returns the length of their LCS.
+
+Example 1
+
+Input
+
+input1: aba 
+
+input2: ababa
+
+Output
+
+3
+
+Explanation
+
+The length of the longest common subsequence is 3 that is "aba".
+
+Example2
+
+Input
+
+input1: aggtab 
+
+input2: gxtxayb
+
+Output
+
+4
+
+Explanation 
+
+The length of the longest common subsequence is 4 that is "gtab"
+
+Input format :
+input1: input string 'x'
+
+input2: input string 'y'
+
+Output format :
+Return the length of the LCS of 'x' and 'y'.
+
+Sample test cases :
+Input 1 :
+aba
+ababa
+Output 1 : 3
+Input 2 :
+aggtab
+gxtxayb
+Output 2 : 4
