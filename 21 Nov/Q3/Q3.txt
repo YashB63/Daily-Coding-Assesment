@@ -1,0 +1,46 @@
+Problem Statement
+
+Given two strings, 'X' and 'Y' (length(x) >= 1, length(Y) <= 10000), 
+find out if 'Y' is contained in 'X'. Return "yes", if 'Y' is contained in 'X', "no", if not.
+
+Examplel
+
+Input
+
+abac
+
+ab
+
+Output
+
+yes
+
+Explanation
+
+Since string given in input2 is a part of the string 
+given in inputl, hence, yes is returned.
+
+Example2
+
+Input
+
+abab
+
+Output
+
+no
+
+Explanation
+
+Since string given in input2 is not a part of the string 
+given in inputl, hence, no is returned.
+
+Input format:
+
+inputl: the string 'X'
+
+input2: the string 'Y
+
+Output format:
+
+Return "yes" if string "Y" is contained in string "X", else, return "no"
