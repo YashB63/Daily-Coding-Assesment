@@ -1,0 +1,49 @@
+Problem Statement:
+
+Give a set of number, one can arrange them in any order, 
+but must pay a penalty equal to the sum of the absolute difference between adjacent numbers. 
+Return the minimum penalty that must be paid.
+
+Examplel
+
+Input
+
+3
+
+132
+
+Output
+
+2
+
+Explanation
+
+The order that incurs the minimum penalty is 1, 2, 3. 
+The penalty is abs(2-1) + abs(3-2) = 2
+
+Example2
+
+Input
+
+4
+
+16-24
+
+Output
+
+8
+
+Explanation
+
+The order that incurs the minimum penalty is -2, 1, 4, 6. 
+The penalty is abs(6-4) + abs(4-1) + abs(1-(-2)) = 2+3 +3=8.
+
+Input format:
+
+inputl: length of an integer array of number (2<=input 1<=1000).
+
+input2: integer array (1<= input 2[i]<=10000).
+
+Output format:
+
+Return the minimum penalty
