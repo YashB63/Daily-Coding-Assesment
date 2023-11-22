@@ -1,0 +1,47 @@
+Largest subarray
+
+Problem Statement
+
+Given an array containing only Os and 1s, find the length of the largest 
+subarray containing an equal number of Os and 1s.
+
+Example1
+
+Input
+
+4
+
+1 1 0 1
+
+Output
+
+2
+
+Explanation
+
+Largest possible array here would be of length 2 as there should be equal number of 0 and 1 in it. 
+The starting index and ending index of the largest subarray is 1 and 2. Hence the output is 2.
+
+Example2
+
+Input
+
+5
+
+1 1 1 1 1
+
+Output
+
+0
+
+Explanation
+
+In the above example, there are no Os in the array. Hence the output is 0.
+
+Input format:
+
+input1: N, the length of an array input2: Array containing 0s and 1s
+
+Output format:
+
+Return the length of the largest sub-array containing equal no. of 0s and 1s
