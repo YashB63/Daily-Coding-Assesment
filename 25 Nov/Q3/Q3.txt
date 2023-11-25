@@ -1,0 +1,30 @@
+Problem statement
+
+7 types of Indian currency notes are given, 
+ie, Re. 1, Rs. 2. Rs. 5, Rs. 10, Rs. 20, Rs. 50 and Rs. 100.
+
+You are required to implement the following function 
+
+int MinNumberOfNotes (int n);
+
+The function accepts an integer 'n' as its argument. 
+Implement the function to find and return the minimum number of notes
+required to form the amount 'n'.
+
+Assumption
+
+n>=0
+
+Note
+
+. Return 0, if n=0
+
+. multiple notes of the same type can be used
+
+Input format:
+
+Input integer is the value of n.
+
+Output format:
+
+Output integer is the number of notes required.
