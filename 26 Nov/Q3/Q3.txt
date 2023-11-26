@@ -1,0 +1,63 @@
+Nth character in Decrypted String
+
+Problem Statement
+
+Every character in the input string is followed by its frequency. 
+Write a function to decrypt the string and find the nth character of the decrypted string. 
+If no character exists at that position then return “-1”. 
+For eq:- if the input string is “a2b3” the decrypted string is “aabbb”
+
+Note
+
+The frequency of encrypted string cannot be greater than a single digit i.e., < 10.
+
+Example1
+
+Input
+
+a1b1c3
+
+5
+
+Output
+
+c
+
+Explanation
+
+The decrypted string is “abccc”, hence the 5th character in the decrypted string is “c”.
+
+Example2
+
+Input
+
+a3b2
+
+7
+
+Output
+
+-1
+
+Explanation
+
+The decrypted string is “aaabb”. Since the length of the decrypted string is less.
+
+Input format :
+Input1: a string
+
+Input2: n, the position of the character starting from 1
+
+Output format :
+Return the character which occurs at the nth position in the decrypted string. 
+Return “-1” if no character exists at that position.
+
+Sample test cases :
+Input 1 :
+a1b1c3
+5
+Output 1 : c
+Input 2 :
+a3b2
+7
+Output 2 : -1
