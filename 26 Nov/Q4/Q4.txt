@@ -1,0 +1,28 @@
+Reverse String Word Wise
+
+Problem, Statement
+
+Write a function to reverse a string word-wise.
+
+Example
+
+Welcome to mettl
+
+mettl to Welcome
+
+Explanation
+
+Welcome is the first word of the string and 
+hence is placed at last repeat until the string is reversed.
+
+Input format :
+Input1: String
+
+Output format :
+Return the reversed string that is, the last word in input string should 
+come at the first position of the output string, second last word at the second position and so on. 
+Individual words should remain as it is.
+
+Sample test cases :
+Input 1 : Welcome to mettl
+Output 1 : mettl to Welcome
