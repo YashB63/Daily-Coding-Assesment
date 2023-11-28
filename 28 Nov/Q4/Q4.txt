@@ -1,0 +1,41 @@
+Swapper
+
+Problem Statement
+
+You are given a string which you have to convert into a palindrome such that each 
+step involves swapping two adjacent characters. 
+Find the minimum number of steps it would take for you to do so.
+
+Note
+
+1. If the string could not be converted into a palindrome, return -1. 
+
+2. Also, if the given string is a palindrome, return 0.
+
+Example
+
+Input
+
+ntiin
+
+Output
+
+1
+
+Explanation
+
+The string can be converted to nitin in 1 step by 
+swapping the t and the adjacent i.
+
+Input format :
+Input1: The string
+
+
+
+Output format :
+The minimum number of steps to convert the string to palindrome, 
+if not possible return -1.
+
+Sample test cases :
+Input 1 : ntiin
+Output 1 : 1
